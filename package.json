@@ -1,0 +1,18 @@
+{
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon --exec node -r dotenv/config src/index.js"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3",
+    "standard": "^14.3.3"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@sentry/node": "^5.15.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9",
+    "node-fetch": "^2.6.0"
+  }
+}
